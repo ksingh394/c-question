@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>non-prime number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">int</span>
+        main
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">int <span class="black"> num; <br>printf<span class="pink">(<span class="text">"\n\tEnter the
+                        number :- "</span>)</span>;</span></span>
+        <br>
+        <span class="black">scanf<span class="pink">(<span class="text">"%d
+                    "<span class="black"> , &num</span></span>)</span>;</span>
+        <br>
+        <span class="black">printf<span class="pink">(<span class="text">"Non-prime numbers between 1 and %d are :
+                    "<span class="black"> , num</span></span>)</span>;</span>
+        <br><br>
+        <span class="comment">// Loop through each number from 2 to given number</span>
+        <br>
+        <span class="blue">for <span class="pink">( <span class="blue"> int <span class="black"> i = 2; i &lt;= num;
+                        i++</span></span>)</span></span>
+        <br>
+        <span class="firstbracket">{</span>
+        <br>
+        <span class="blue" id="tab">int <span class="black">p = 0; </span></span>
+        <br>
+        <span class="comment" id="tab">// Check if i is prime</span>
+        <br>
+        <span class="blue" id="tab">for ( int <span class="black">j = 2; j &lt; i; j++</span>)<br> </span>
+        <span class="blue" id="tab">{</span>
+        <br>
+        <span class="blue" id="tab2">if<span class="yellow"> (<span class="black">i % j == 0 </span>)</span></span>
+        <br>
+        <span class="yellow" id="tab2">{</span>
+        <br>
+        <span class="black" id="tab3">p++;<span class="comment"> // i is not prime</span></span>
+        <br>
+        <span class="blue" id="tab3">break <span class="black">;</span></span>
+        <br>
+        <span class="yellow" id="tab2">}</span>
+        <br>
+        <span class="blue" id="tab">}</span>
+        <br>
+        <br>
+        <span class="comment" id="tab">// If i is prime, print i</span>
+        <br>
+        <span class="blue" id="tab">if (<span class="black"> p != 0 </span>)</span>
+        <br>
+        <span class="blue" id="tab">{</span>
+        <br>
+        <span class="black" id="tab2">printf<span class="yellow">(<span class="text">"%d "<span class="black">,
+                        i</span></span>)</span></span>
+        <br>
+        <span class="blue" id="tab">}</span>
+        <br> <br>
+        <span class="firstbracket">}</span>
+        <br>
+        <br>
+        <span class="black">printf<span class="pink">(<span class="text">"\n\n"</span>)</span></span>
+        <br>
+        <br>
+        <span class="returntype">return</span>
+        <span class="zero">0</span>
+        ;
+        <br>
+        <span class="mainbracket">}</span>
+        <span>
+            <h3 class="codeoutput">Example--&gt;</h3>
+        </span>
+        <br>
+        <span class="black" id="tab">If you enter <span class="blue">15</span> then the outpue is --&gt;</span>
+        <br>
+        <span class="black" id="tab2"> Non_prime numbers between 1 and 15 are: <span class="blue">4 6 8 9 10 12 14
+                15</span></span>
+    </span>
+
+</body>
+
+</html>

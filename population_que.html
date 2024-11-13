@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>population_que</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodymargin">
+<span class="javacolor">
+<h3 class="codeoutput">Code--&gt;</h3>
+<span class="preprocessor_directive">#include </span>
+<span class="headerfile">&lt;stdio.h&gt;</span>
+<br>
+<span class="returntype">int</span>
+<span class="black">main</span>
+<span class="mainbracket">()<br>{</span>
+<br>
+<span class="blue"> long int <span class="black"> totalpeople,&nbsp;totallitercay,&nbsp;literateman,&nbsp;totalman,&nbsp;illeterateman,&nbsp;illeteratewoman,&nbsp;totalwoman,&nbsp;literatewoman&nbsp;;</span></span>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"Enter the population of the town :- "</span>)</span>;</span>
+<br>
+<span class="black">scanf<span class="pink">(<span class="text">"%ld" <span class="black"> , &totalpeople</span></span>)</span>/100 ;</span>
+<span class="comment">// %ld is use for long int </span>
+<br>
+<span class="black">totalman = <span class="pink">( <span class="black">52 * totalpeople</span>)</span>;</span>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"No. of totalman is %ld\n"<span class="black"> , totalman</span></span>)</span>;</span>
+<br>
+<span class="black">totallitercay= <span class="pink">(<span class="black">48*totalpeople</span>)</span>/100 ;</span>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"No. of total litercay is %ld \n"<span class="black">,totallitercay</span></span>)</span>;<span>
+<br>
+<span class="black">literateman = <span class="pink">(<span class="black">35*totalpeople</span>)</span>/100 ;</span>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"No. of total litercay man is %ld\n"<span class="black">,literateman</span></span>)</span>;<span>
+<br>
+<span class="black">
+<br> illeterateman= totalman-literateman;
+<br>totalwoman= totalpeople-totalman;
+<br>literatewoman= totallitercay-literateman;
+<br> illeteratewoman= totalwoman-literatewoman;
+</span>
+<br>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"Total illeterateman man is %ld\n"<span class="black">,illeterateman</span></span>)</span>;<span>
+<br>
+<span class="black">printf<span class="pink">(<span class="text">"Total illeterateman woman is %ld\n"<span class="black">,illeteratewoman</span></span>)</span>;<span>
+<br>
+<span class="returntype">return</span>
+<span class="zero">0</span>
+<span class="black">;</span>
+<br>
+<span class="mainbracket">}</span>
+</span>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charaterreader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Hint--&gt;</h3>
+        <span class="red">A - Z -&gt;</span>
+        <span class="blue"> 65 to 90</span>
+        <br>
+        <span class="red">a - z -&gt;</span>
+        <span class="blue">97 to 122</span>
+        <br>
+        <span class="red">0 - 9 -&gt;</span>
+        <span class="blue">48 to 57</span>
+        <br>
+        <span class="red">Special symbol-&gt;</span>
+        <span class="blue">0 - 47, 58 - 64, 91 - 96, 123 - 127,</span>
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">&nbsp;int</span>
+        main
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">char</span>
+        ch;
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"Enter the character :- "</span>
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        scanf
+        <span class="firstbracket">(</span>
+        <span class="text">"%d"</span>
+        ,ch
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="blue">if</span>
+        <span class="firstbracket">(</span>
+        ch &gt; 64 && ch &lt; 91
+        <span class="firstbracket">)</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"This is a capital letter"</span>
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="blue">else if </span>
+        <span class="firstbracket">(</span>
+        ch &gt; 96 && ch &lt; 123
+        <span class="firstbracket">)</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"This is a small case letter"</span>
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="blue">else if </span>
+        <span class="firstbracket">(</span>
+        ch &gt; 47 && ch &lt; 58
+        <span class="firstbracket">)</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"This is a digit"</span>
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="blue">esle if </span>
+        <span class="firstbracket">(</span>
+        <span class="blue">(</span>
+        ch &gt;= 0 && ch &lt; 48
+        <span class="blue">)</span>
+        ||
+        <span class="blue">(</span>
+        ch &gt; 59 && ch &lt; 65
+        <span class="blue">)</span>
+        ||
+        <span class="blue">(</span>
+        ch &gt; 90 && ch &lt; 97
+        <span class="blue">)</span>
+        ||
+        <span class="blue">(</span>
+        ch &gt; 124 && ch &lt; 128
+        <span class="blue">)</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"This is a special symbol "</span>
+        <span class="firstbracket">)</span>
+        <span class="firstbracket">)</span>
+        <br>
+        <span class="comment">//else<br>//printf("This is a special symbol");</span>
+
+        <br>
+        <span class="returntype">&nbsp;return</span>
+        <span class="zero">0</span>
+        ;
+        <br>
+        <span class="mainbracket">&nbsp;}</span>
+    </span>
+</body>
+
+</html>

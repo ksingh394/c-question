@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disconverter </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Make this type of program</h3>
+        <span class="red"> Conversion of program</span>
+        <br>
+        <span class="blue">Enter the distance(KM) =</span>
+
+        <br>
+        <span class="black">What type of conersion do you want</span>
+        <span class="blue">
+            <br>1. Km to M
+            <br>2. Km to Cm
+            <br>3. KM tO Ft
+            <br>4. Km to inch
+        </span>
+        <br>
+        <span class="red">Enter your choice :- </span>
+
+
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">&nbsp;int</span>
+        main
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">int</span>
+        dis,no,dis_copy;
+        <br>
+        printf
+        <span class="pink">( <span class="text">"\n\t**Conversion of program**\n\n"</span>)</span>
+        ;
+        <br>
+        printf
+        <span class="pink">( <span class="text">""Enter the distance(KM) :- "</span>)</span>
+        ;
+        <br>
+        scanf
+        <span class="pink">(<span class="text">"%d"<span class="black">,&dis</span></span>)</span>
+        ;
+        <br>
+        dis_copy=dis;
+        <br>
+        printf
+        <span class="pink">(<span class="text">"\nWhat type of conersion do you want\n\n1. Km to M\n2. Km to Cm\n3. Km
+                to inch\n4. KM tO Ft\n\nEnter your choice :- "</span>)</span>
+        ;
+        <br>
+        scanf
+        <span class="pink">(<span class="text">"%d"<span class="black">,no</span></span>)</span>
+        ;
+        <br>
+        <span class="blue">switch<span class="pink"> (<span class="black">no</span>)</span></span>
+        <br>
+        <span class="pink">{</span>
+        <br>
+        <span class="blue">case<span class="black"> 1:<br>&nbsp;&nbsp;&nbsp;&nbsp;printf<span class="blue">(<span
+                        class="text">"%d Km is equal to %d M"<span
+                            class="black">,dis,dis*1000</span></span>)</span>;<br></span>&nbsp;&nbsp;&nbsp;&nbsp;break</span>;
+        <br>
+        <span class="blue">case<span class="black"> 2:<br>&nbsp;&nbsp;&nbsp;&nbsp;printf<span class="blue">(<span
+                        class="text">"%d Km is equal to %d Cm"<span
+                            class="black">,dis,dis*100000</span></span>)</span>;<br></span>&nbsp;&nbsp;&nbsp;&nbsp;break</span>;
+        <br>
+        <span class="blue">case<span class="black"> 3:<br>&nbsp;&nbsp;&nbsp;&nbsp;printf<span class="blue">(<span
+                        class="text">"%d Km is equal to %f Ft"<span class="black">,dis,<span class="yellow">(<span
+                                    class="blue">float<span class="yellow">) ( <span class="pink">( <span
+                                                class="black">dis*100000</span> )</span> <span
+                                            class="black">/2.54</span> )</span> <span class="black">/12</span>
+                                </span></span></span></span>)</span></span></span>;
+        <br>
+        <span class="blue">default<span class="black"> :<br>&nbsp;&nbsp;&nbsp;&nbsp;printf<span class="blue">(<span
+                        class="text">"enter the number between 1 to
+                        4\n"</span>)</span>;<br></span>&nbsp;&nbsp;&nbsp;&nbsp;break</span>;
+        <br>
+        <span class="pink">}</span>
+        <br>
+        <span class="returntype">&nbsp;return</span>
+        <span class="zero">0</span>
+        ;
+        <br>
+        <span class="mainbracket">&nbsp;}</span>
+    </span>
+
+</body>
+
+</html>

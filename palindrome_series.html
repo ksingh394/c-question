@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">int</span>
+        <span class="black">main</span>
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">int <span class="black"> num,rem,rev=0,num_cpy;</span></span>
+        <br>
+        <span class="black">printf<span class="pink">(<span class="text">"\nEnter the number :- "</span>)</span></span>
+        <br>
+        <span class="black">scanf<span class="pink">(<span class="text">"%d"<span class="black"> , & num</span></span>)</span>;</span>
+        <br>
+        <span class="black">num_cpy=num;</span>
+        <br>
+        <span class="blue">for <span class="pink">(<span class="black">num; num != 0 ; num/=10</span>)</span><span class="comment"> //num = num/10</span></span>
+        <br>
+        <span class="pink">{</span>
+        <br>
+        <spab class="black" id="tab2">rem =  num%10;</spab>
+        <br>
+        <spab class="black" id="tab2">rev= rev*10+rem;</spab>
+        <br>
+        <span class="pink">}</span>
+        <br>
+        <span class="blue">if <span class="pink"> ( <span class="black"> num_cpy == rev </span>)</span></span>
+        <br>
+        <span class="black" id="tab2">printf<span class="blue">(<span class="text">"\n\t%d is the palindrome number "<span class="black">, num_cpy</span></span>)</span>;</span>
+        <br>
+        <span class="blue">else </span>
+        <br>
+        <span class="black" id="tab2">printf<span class="blue">(<span class="text">"\n\t%d is not the palindrom number "<span class="black">, num_cpy</span></span>)</span>;</span>
+
+        <br>
+        <span class="returntype">return</span>
+        <span class="zero">0</span>
+        <span class="black">;</span>
+        <br>
+        <span class="mainbracket">}</span>
+        <span>
+            <h3 class="codeoutput">Example--&gt</h3>
+            <br>
+            <span class="black"> 121 or 323 are the palindrome  series .</span>
+        </span>
+</body>
+</html>

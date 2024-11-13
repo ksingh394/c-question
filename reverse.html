@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span class="javacolor">
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">int</span>
+        <span class="black">main</span>
+        <span class="yellow">()</span>
+        <br>
+        <span class="mainbracket">{</span>
+        <br>
+        <span class="blue">int <span class="black"> num,rem,rev=0;</span></span>
+        <br>
+        <span class="black">printf<span class="pink">(<span class="text">"\nEnter the number :- "</span>)</span>;</span>
+        <br>
+        <span class="black">scanf<span class="pink">(<span class="text">"%d"<span class="black">,
+                        &num</span></span>)</span>;</span>
+        <br>
+        <span class="comment">
+            <br>// for (num; num != 0 ; num/=10 )//num = num/10
+            <br>// {
+            <br>// rem = num%10;
+            <br>// rev= rev*10+rem;
+            <br>// }
+        </span>
+        <br>
+        <span class="blue">while<span class="pink">(<span class="black">num != 0</span>)</span></span>
+        <br>
+        <span class="pink">{</span>
+        <span class="black" id="tab2">
+            <br>&nbsp;&nbsp;rem = num%10;
+            <br>&nbsp;&nbsp;rev = rev*10+rem;
+            <br>&nbsp;&nbsp;num = num/10;</span>
+        <br>
+        <span class="pink">}</span>
+        <br>
+        <span class="black">printf<span class="pink">(<span class="text">"The Reverse number is %d"<span class="black">,
+                        rev</span></span>)</span>;</span>
+        <br>
+        <span class="returntype">return</span>
+        <span class="zero">0</span>
+        <span class="black">;</span>
+        <br>
+        <span class="mainbracket">}</span>
+    </span>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+
+.bodymargin
+{
+    margin-left: 10px;
+}
+#mainheading
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+.maintopic
+{
+    color: blue;
+}
+li{
+    padding: 3px;
+}
+a
+{
+    text-decoration: none;
+    font-size:17px;
+    color: rgb(16, 111, 165);
+}
+#simplecodeh2
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: #D9EEE1;
+}
+/* Styling the code by css  */
+.javacolor
+{
+    color: black;
+}
+.codeoutput
+{
+    margin-bottom: 15px;
+    color: green;
+}
+.preprocessor_directive
+{
+    color: gray;
+}
+.comment
+{
+    color: green;
+}
+.headerfile
+{
+    color: red;
+}
+.returntype
+{
+    color: blue;
+}
+.mainbracket
+{
+    color: rgb(250, 176, 86);
+}
+.firstbracket
+{
+    color:rgb(224, 105, 124);
+}
+.text
+{
+    color: orange;
+}
+.blue
+{
+    color: blue;
+}
+.red
+{
+    color: red;
+}
+.pink
+{
+    color:rgb(224, 105, 124);;
+}
+.black
+{
+    color: black;
+}
+.zero
+{
+    color:rgb(11, 110, 77);
+}
+#tab
+{
+    padding-left: 10px;
+}
+#tab2
+{
+    padding-left: 20px;
+}
+#tab3
+{
+    padding-left: 30px;
+}
+#tab4
+{
+    padding-left: 50px;
+}
+.yellow
+{
+    color:  rgb(250, 176, 86);
+}

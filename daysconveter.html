@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daysconveter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="returntype">&nbsp;int</span>
+        main
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">int</span>
+        days,years,month,weeks,day;
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"Enter days :- "</span>
+        <span class="firstbracket">)</span>
+        ;
+        <span class="comment">// number of days given by user</span>
+        <br>
+        scanf
+        <span class="firstbracket">(</span>
+        <span class="text">"%d"</span>
+        ,&days
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="comment">// Converts days to years,months,weeks and days</span>
+        <br>
+        years = days/365;
+        <span class="comment">// Calculate years</span>
+        <br>
+        month = (days % 365)/30;
+        <span class="comment">// calculate months</span>
+        <br>
+        weeks = ((days % 365)%30)/7;
+        <span class="comment">// Calculate weeks</span>
+        <br>
+        day = days -
+        <span class="firstbracket">(</span>
+        <span class="blue">(</span>
+        years*365
+        <span class="blue">)</span>
+        +
+        <span class="blue">(</span>
+        month*30
+        <span class="blue">)</span>
+        +
+        <span class="blue">(</span>
+        weeks*7
+        <span class="blue">)</span>
+        <span class="firstbracket">)</span>
+        ;
+        <span class="comment">// Calculate remaining day</span>
+        <br>
+        <span class="comment">// Print the results</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"\tYear = %d\n\tMonth = %d\n\tWeek = %d\n\tDay = %d"</span>
+        ,years,month,weeks,day
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="returntype">&nbsp;return</span>
+        <span class="zero">0</span>
+        ;
+        </span>
+        <br>
+        <span class="mainbracket">&nbsp;}</span>
+    </span>
+
+</body>
+
+</html>

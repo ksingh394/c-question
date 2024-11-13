@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>armstromgnumber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bodymargin">
+    <span class="javacolor">
+        <h3 class="codeoutput">Code--&gt;</h3>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;stdio.h&gt;</span>
+        <br>
+        <span class="preprocessor_directive">#include </span>
+        <span class="headerfile">&lt;math.h&gt;</span>
+        <br>
+        <span class="returntype">&nbsp;int</span>
+        main
+        <span class="mainbracket">()<br>{</span>
+        <br>
+        <span class="blue">int</span>
+        no, no_cpy, arm = 0, rem, n = 0;
+        <br>
+        &nbsp;printf
+        <span class="firstbracket">(</span>
+        <span class="text">"\n\tEnter any number :- "</span>
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        &nbsp;scanf
+        <span class="firstbracket">(</span>
+        <span class="text">"%d"</span>
+        ,no
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        &nbsp;no_cpy = no;
+        <br>
+        <span class="blue">for</span>
+        <span class="firstbracket">(</span>
+        no ; no != 0; no = no/10
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="firstbracket">&nbsp;&nbsp;{</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;n++;
+        <br>
+        <span class="firstbracket">&nbsp;&nbsp;}</span>
+        <br>
+        <span class="blue">for</span>
+        <span class="firstbracket">(</span>
+        no ; no != 0; no = no/10
+        <span class="firstbracket">)</span>
+        <br>
+        <span class="firstbracket">&nbsp;&nbsp;{</span>
+        <br>
+        &nbsp;&nbsp;rem = no % 10;
+        <br>
+        &nbsp;&nbsp;printf
+        <span class="blue">(</span>
+        <span class="text">"%d"</span>
+        ,rem
+        <span class="blue">)</span>
+        ;
+        <br>
+        &nbsp;&nbsp;arm = arm + pow
+        <span class="blue">(</span>
+        rem,n
+        <span class="blue">)</span>
+        ;
+        <br>
+        <span class="firstbracket">&nbsp;&nbsp;}</span>
+        <br>
+        <span class="blue">if</span>
+        <span class="firstbracket">(</span>
+        arm&nbsp;==&nbsp;no_cpy
+        <span class="firstbracket">)</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+        <span class="text">"\n\t%d is the Armstronng number\n"</span>
+        , no_cpy
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="blue">else</span>
+        <br>
+        printf
+        <span class="firstbracket">(</span>
+
+        <span class="text">"\n\t%d is not an Armstrong number\n "</span>
+        , no_cpy
+        <span class="firstbracket">)</span>
+        ;
+        <br>
+        <span class="returntype">return</span>
+        <span class="zero">0</span>
+        ;
+        <br>
+        <span class="mainbracket">&nbsp;}</span>
+    </span>
+    <h3 class="codeoutput">Example--&gt;</h3>
+    (e.g:- 371 is armstrong number)
+    <br> 3^3+7^3+1^3=371
+</body>
+
+</html>
